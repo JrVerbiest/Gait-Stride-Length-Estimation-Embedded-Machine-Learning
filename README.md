@@ -2,6 +2,10 @@
 
 **Work in progress.**
 
+This repo contains a collection of jupyter notebooks and python scripts.
+
+Related project: Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io))
+
 ## Dataset
 
 <a href="https://www.mdpi.com/2306-5729/6/9/95">TRIPOD — A Treadmill Walking Dataset with IMU, Pressure-Distribution and Photoelectric Data for Gait Analysis. Justin Trautmann, Lin Zhou, Clemens Markus Brahms, Can Tunca, Cem Ersoy, Urs Granacher and Bert Arnrich.</a>
