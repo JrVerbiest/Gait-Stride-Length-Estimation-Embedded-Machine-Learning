@@ -1,18 +1,12 @@
 # Gait Stride Length Estimation - Embedded Machine Learning
 
-This repo is related to the  Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)) project. It contains mainly a collection of (template) Jupyter Notebooks and Python scripts. 
+**!!IMPORTANT!! This repo is under construction and will be updated regularly.**
 
-**!!IMPORTANT!! This repo is still under construction.**
+## Gait Stride Length Estimation
 
-## Machine Learning Workflow
+Spatiotemporal gait parameters, e.g., gait stride length, are measurements from gait analysis. Today, different solutions are available for gait assessment outside the laboratory, specifically for spatiotemporal gait parameters. Such solutions are wearable devices that comprise an inertial measurement unit, IMU and a microcontroller, MCU. However, these existing wearable devices are resource constrained. They contain a processing unit with limited processing and memory capabilities, which limit the use of machine learning to estimate spatiotemporal gait parameters directly on the device. The solution is embedded machine learning or tiny machine learning (tinyML™).
 
-In the machine-learning workflow,  open-source software (e.g. Python, scikit-learn, TensorFlow/Keras) and MLOps (Machine Learning Operations) frameworks [Edge Impulse Studio](https://www.edgeimpulse.com/) and [Weights and Biases](https://wandb.ai/) are used.
-
-![Machine Learning Workflow](./img/workflow.png)
-
-## Project structure
-
-[Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science)
+The Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)) project mainly focuses on estimating the gait stride length. This repo is related to the project and contains a collection of (template) Jupyter Notebooks and Python scripts primarily.
 
 ## Datasets
 
@@ -20,7 +14,23 @@ In the machine-learning workflow,  open-source software (e.g. Python, scikit-lea
 
 - <a href="https://zenodo.org/record/7415759">DUO-GAIT: A Gait Dataset for Walking under Dual-Task and Fatigue Conditions with Inertial Measurement Units.</a> Zhou, Lin; Fischer; Eric; Brahms, Markus Clemens; Granacher, Urs; Arnrich, Bert
 
-- Xsens - GAITRite dataset (private dataset)
+- Xsens - GAITRite dataset (private dataset).  Additional Xsens IMU data is collected in a gait laboratory (a written request to a Medical Ethics Committee is approved).
+
+## Machine Learning Workflow
+
+In the machine-learning workflow,  open-source software (e.g. Python, scikit-learn, TensorFlow/Keras) and MLOps (Machine Learning Operations) frameworks [Edge Impulse Studio](https://www.edgeimpulse.com/) and [Weights and Biases](https://wandb.ai/) are used.
+
+![Machine Learning Workflow](./img/workflow.png)
+
+## Embedded hardware
+
+The selected embedded platform used for evaluation is the [SparkFun MicroMod with nRF52840 Processor mounted](: https://www.sparkfun.com/products/16984) on a [SparkFun MicroMod Data Logging Carrier board](https://www.sparkfun.com/products/16829). The nRF52840 is an Arm® Cortex®-M4F 64 MHz processor from Nordic Semiconductor, with 1MB internal flash and 256kB internal RAM. The static buffer example from Edge Impulse is used to test the model on the device. 
+
+![EI static buffer](./img/EI_static_buffer.png)
+
+## Project structure
+
+[(Cookiecutter) Data Science](https://github.com/drivendata/cookiecutter-data-science)
 
 ## Environment Setup
 
