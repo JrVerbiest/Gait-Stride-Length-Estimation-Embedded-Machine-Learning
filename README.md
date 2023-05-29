@@ -1,10 +1,12 @@
 # Gait Stride Length Estimation - Embedded Machine Learning
 
-This repo is related to the  Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)) project. This repo contains mainly a collection of (template) Jupyter Notebooks and Python scripts. 
+This repo is related to the  Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)) project. It contains mainly a collection of (template) Jupyter Notebooks and Python scripts. 
 
-**IMPORTANT Note: This repo is still under construction.**
+**!!IMPORTANT!! This repo is still under construction.**
 
-## Workflow
+## Machine Learning Workflow
+
+In the machine-learning workflow,  open-source software (e.g. Python, scikit-learn, TensorFlow/Keras) and MLOps (Machine Learning Operations) frameworks [Edge Impulse Studio](https://www.edgeimpulse.com/) and [Weights and Biases](https://wandb.ai/) are used.
 
 ![Machine Learning Workflow](./img/workflow.png)
 
