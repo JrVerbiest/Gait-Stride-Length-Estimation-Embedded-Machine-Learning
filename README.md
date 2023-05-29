@@ -24,7 +24,7 @@ In the machine-learning workflow,  open-source software (e.g. Python, scikit-lea
 
 ## Embedded hardware
 
-The selected embedded platform used for evaluation is the [SparkFun MicroMod with nRF52840 Processor mounted](: https://www.sparkfun.com/products/16984) on a [SparkFun MicroMod Data Logging Carrier board](https://www.sparkfun.com/products/16829). The nRF52840 is an Arm® Cortex®-M4F 64 MHz processor from Nordic Semiconductor, with 1MB internal flash and 256kB internal RAM. The static buffer example from Edge Impulse is used to test the model on the device. 
+The selected embedded platform used for evaluation is the [SparkFun MicroMod with nRF52840 Processor mounted](https://www.sparkfun.com/products/16984) on a [SparkFun MicroMod Data Logging Carrier board](https://www.sparkfun.com/products/16829). The nRF52840 is an Arm® Cortex®-M4F 64 MHz processor from Nordic Semiconductor, with 1MB internal flash and 256kB internal RAM. The static buffer example from Edge Impulse is used to test the model on the device. 
 
 ![EI static buffer](./img/EI_static_buffer.png)
 
