@@ -20,6 +20,7 @@ To profile the model ('model.h5'), run:
 python ei_profiling.py --wandb_run_path="<your-wandb-run-path>"  --device="<device>"
 ```
 ## Deploy your model
+Reference [Edge Impulse Python SDK - deploy your model](https://docs.edgeimpulse.com/docs/edge-impulse-python-sdk/01-python-sdk-with-tf-keras#deploy-your-model)
 
 To deploy the model to an Arduino target, run
 
