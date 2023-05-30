@@ -14,5 +14,5 @@ with open(os.path.join(os.getcwd(), env_file), "r") as yaml_file:
     env_config = yaml.load(yaml_file, Loader=SafeLoader)
 yaml_file.close()
 
-ei.API_KEY = env_config['ei']['key']
+ei.API_KEY = env_config['ei']['api_key']
 logger.info(ei.model.list_profile_devices())
