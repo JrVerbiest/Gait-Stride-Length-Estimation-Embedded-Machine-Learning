@@ -2,9 +2,7 @@
 
 <span style="color:red">**!!IMPORTANT!!** This repo is **under construction** and will be updated regularly.</span>.
 
-This repo  contains a collection of (template) Jupyter Notebooks and Python scripts. It is related to the project Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)).
-
-Machine Learning at the Extreme Edge (ML@E2dge) looks at how we can apply machine learning in the development of accurate, energy-efficient, and intelligent (wireless) (battery-powered) devices.
+This repo  contains a collection of (template) Jupyter Notebooks and Python scripts. It is related to the project Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)). The project Machine Learning at the Extreme Edge (ML@E2dge) looks at how we can apply machine learning in the development of accurate, energy-efficient, and intelligent (wireless) (battery-powered) devices. The primary focus in the project lies on the machine learning part, the design of a regression model, given a healthcare case study (Gait Stride Length Estimation) as the backbone. 
 
 ## Gait Stride Length Estimation
 
