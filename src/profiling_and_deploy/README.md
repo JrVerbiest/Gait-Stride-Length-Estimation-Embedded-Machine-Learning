@@ -25,3 +25,5 @@ To deploy the model to an Arduino target, run
 
 ```
 python ei_create_lib.py --wandb_run_path="<your-wandb-run-path>"  --deploy_target="arduino"
+```
+ a zip file will be save in `./lib`
