@@ -1,4 +1,2 @@
-wandb:
-  project: '<your-wandb-project>'
 ei:
   api_key: '<your-ei-key>'
