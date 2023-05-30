@@ -1,12 +1,14 @@
 # Gait Stride Length Estimation - Embedded Machine Learning
 
-**!!IMPORTANT!! This repo is under construction and will be updated regularly.**
+<span style="color:red">**!!IMPORTANT!!** This repo is **under construction** and will be updated regularly.</span>.
 
 ## Gait Stride Length Estimation
 
 Spatiotemporal gait parameters, e.g., gait stride length, are measurements from gait analysis. Today, different solutions are available for gait assessment outside the laboratory, specifically for spatiotemporal gait parameters. Such solutions are wearable devices that comprise an inertial measurement unit, IMU and a microcontroller, MCU. However, these existing wearable devices are resource constrained. They contain a processing unit with limited processing and memory capabilities, which limit the use of machine learning to estimate spatiotemporal gait parameters directly on the device. The solution is embedded machine learning or tiny machine learning (tinyML™).
 
-The Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)) project mainly focuses on estimating the gait stride length. This repo is related to the project and contains a collection of (template) Jupyter Notebooks and Python scripts primarily.
+This repo  contains a collection of (template) Jupyter Notebooks and Python scripts. It is related to the project Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io)).
+
+Machine Learning at the Extreme Edge (ML@E2dge) looks at how we can apply machine learning in the development of accurate, energy-efficient, and intelligent (wireless) (battery-powered) devices.
 
 ## Datasets
 
@@ -18,13 +20,13 @@ The Machine Learning at the Extreme Edge ([ML@E2dge](https://mlate2dge.github.io
 
 ## Machine Learning Workflow
 
-In the machine-learning workflow,  open-source software (e.g. Python, scikit-learn, TensorFlow/Keras) and MLOps (Machine Learning Operations) frameworks [Edge Impulse Studio](https://www.edgeimpulse.com/) and [Weights and Biases](https://wandb.ai/) are used.
+In the machine-learning workflow, we use open-source software (e.g. Python, scikit-learn, TensorFlow/Keras) and MLOps (Machine Learning Operations) frameworks [Edge Impulse Studio](https://www.edgeimpulse.com/) and [Weights and Biases](https://wandb.ai/).
 
 ![Machine Learning Workflow](./img/workflow.png)
 
 ## Embedded hardware
 
-The selected embedded platform used for evaluation is the [SparkFun MicroMod with nRF52840 Processor mounted](https://www.sparkfun.com/products/16984) on a [SparkFun MicroMod Data Logging Carrier board](https://www.sparkfun.com/products/16829). The nRF52840 is an Arm® Cortex®-M4F 64 MHz processor from Nordic Semiconductor, with 1MB internal flash and 256kB internal RAM. The static buffer example from Edge Impulse is used to test the model on the device. 
+The selected embedded platform used for evaluation is the [SparkFun MicroMod with nRF52840 Processor mounted](https://www.sparkfun.com/products/16984) on a [SparkFun MicroMod Data Logging Carrier board](https://www.sparkfun.com/products/16829). The nRF52840 is an Arm® Cortex®-M4F 64 MHz processor from Nordic Semiconductor, with 1MB internal flash and 256kB internal RAM. The static buffer example from [Edge Impulse Ingestion SDK - Arduino ](https://docs.edgeimpulse.com/docs/deployment/arduino-library) is used to test the model on the device. As IDE, we use [Visual Studio Code](https://code.visualstudio.com/) (VSCode) with [PlatformIO](https://platformio.org/) IDE for VSCode.
 
 ![EI static buffer](./img/EI_static_buffer.png)
 
