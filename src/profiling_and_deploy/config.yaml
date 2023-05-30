@@ -1,0 +1,4 @@
+wandb:
+  project: '<your-wandb-project>'
+ei:
+  key: '<your-ei-key>'
