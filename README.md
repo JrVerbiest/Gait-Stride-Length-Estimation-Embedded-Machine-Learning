@@ -30,7 +30,13 @@ The selected embedded platform used for evaluation is the [SparkFun MicroMod wit
 
 ## Project structure
 
-[(Cookiecutter) Data Science](https://github.com/drivendata/cookiecutter-data-science)
+
+```
+├── src
+│   └── profiling_and_deploy    <- source code
+```
+
+Reference: [(Cookiecutter) Data Science](https://github.com/drivendata/cookiecutter-data-science)
 
 ## Environment Setup
 
