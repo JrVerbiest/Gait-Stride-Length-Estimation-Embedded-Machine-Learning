@@ -4,7 +4,7 @@
 
 ## Gait Stride Length Estimation
 
-Spatiotemporal gait parameters, e.g., gait stride length, are measurements from gait analysis. Today, different solutions are available for gait assessment outside the laboratory, specifically for spatiotemporal gait parameters. Such solutions are wearable devices that comprise an inertial measurement unit, IMU and a microcontroller, MCU. However, these existing wearable devices are resource constrained. They contain a processing unit with limited processing and memory capabilities, which limit the use of machine learning to estimate spatiotemporal gait parameters directly on the device. The solution is embedded machine learning or tiny machine learning (tinyML™).
+Spatiotemporal gait parameters, e.g., gait stride length, are measurements classicaly derived from instrumented gait analysis. Today, different solutions are available for gait assessment outside the laboratory, specifically for spatiotemporal gait parameters. Such solutions are wearable devices that comprise an inertial measurement unit (IMU) and a microcontroller (MCU). However, these existing wearable devices are resource constrained. They contain a processing unit with limited processing and memory capabilities, which limit the use of machine learning to estimate spatiotemporal gait parameters directly on the device. The solution is embedded machine learning.
 
 ## Datasets
 
@@ -12,7 +12,7 @@ Spatiotemporal gait parameters, e.g., gait stride length, are measurements from 
 
 - <a href="https://zenodo.org/record/7415759">DUO-GAIT: A Gait Dataset for Walking under Dual-Task and Fatigue Conditions with Inertial Measurement Units.</a> Zhou, Lin; Fischer; Eric; Brahms, Markus Clemens; Granacher, Urs; Arnrich, Bert
 
-- Xsens - GAITRite dataset (private dataset).  Additional Xsens IMU data is collected in a gait laboratory (a written request to a Medical Ethics Committee is approved).
+- Xsens - GAITRite dataset (private dataset).  Additional Xsens IMU data is collected in a gait laboratory (a written request to a Medical Ethics Committee is submitted and approved).
 
 ## Machine Learning Workflow
 
@@ -33,8 +33,6 @@ The selected embedded platform used for evaluation is the [SparkFun MicroMod wit
 ├── src
 │   └── profiling_and_deploy    <- source code
 ```
-
-Reference: [(Cookiecutter) Data Science](https://github.com/drivendata/cookiecutter-data-science)
 
 ## Environment Setup
 
